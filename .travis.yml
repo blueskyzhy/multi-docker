@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t blueskyzhy/multi-docker -f ./client/Dockerfile.dev .
+  - docker build -t blueskyzhy/multi-docker -f ./client/Dockerfile.dev ./client
 #  - docker build myotherproject
 
 #command to run the test suite, 
